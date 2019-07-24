@@ -8,7 +8,7 @@ urlpatterns=[
     path('',views.home,name='home'),
     # path('home.html/', views.home),
     # path('blog.html/',views.blog,name='blog'),
-    path('blog/<int:pk>/',views.detail_blog, name='detail_blog'),
+    # path('blog/<int:pk>/',views.detail_blog, name='detail_blog'),
     # path('blog.html/form_article.html',views.input_article),
     # path('mentee.html/',views.mentee,name='mentee'),
     # path('form_mentee.html',views.input_mentee),
