@@ -29,7 +29,7 @@
                         <p>
                             {{ article.content|safe|truncatewords:"50"|linebreaks }}
                         </p>
-                        <a href="">Baca selengkapnya</a>
+                        <a href="{% url 'detail_blog' %}">Baca selengkapnya</a>
                     </div>
                 </div>
             </div>

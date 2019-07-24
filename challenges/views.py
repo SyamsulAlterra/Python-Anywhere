@@ -50,7 +50,7 @@ def input_article(request):
 
     return render(request, 'form_article.html', {'form':form} )
 
-def detail_blog(request, pk):
-    article=get_object_or_404(request, pk)
+def detail_blog(request, pk_id):
+    article=get_object_or_404(request, pk=pk_id)
     return render(request, 'detail_blog.html', {'article':article})
 
