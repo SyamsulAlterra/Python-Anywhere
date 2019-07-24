@@ -1,0 +1,210 @@
+/* global */
+a{
+    text-decoration: None;
+    color: black;
+}
+
+a:hover{
+    text-decoration: None;
+    color: black;
+    font-weight: bold;
+}
+
+.center-col{
+    padding-left: 470px;
+}
+
+.box{
+    background-color:rgb(34, 163, 185);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.table{
+    display: table;
+}
+
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.alignleft{
+    text-align: left;
+}
+
+.alignright{
+    text-align: right;
+}
+
+.aligncenter{
+    text-align: center;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.blue-bg{
+    background-color:rgb(96, 155, 179);
+}
+
+.white{
+    color: white;
+}
+
+.spaceTop{
+    padding-top: 10px;
+}
+/* global */
+
+
+/* header */
+header .list-unstyled li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+header .list-unstyled{
+    text-align: center;
+}
+
+.topHeader {
+    background-color: white;
+}
+
+.headerText{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px 0px;
+}
+
+.header-row-one{
+    text-align: center;
+    padding: 0px 300px;
+    font-size: 20px;
+    background-color:rgb(96, 155, 179);
+}
+
+.header-row-one img{
+    padding-top: 40px;
+}
+/* header */
+
+
+/* footer */
+.foot{
+    background-color: rgb(96, 155, 179);
+    text-align: center;
+}
+
+footer .row1{
+    padding-top: 20px;
+}
+
+footer .row3{
+    height:10px;
+    background-color: rgb(96, 155, 179);
+
+}
+/* footer */
+
+/* mentee body */
+body .one{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+body .two p, body .three p{
+    padding-left: 130px;
+    margin: 0px;
+}
+
+body .two, body .three{
+    padding: 30px 0px;
+}
+
+.mentee{
+    height: 200px;
+    padding-left: 230px;
+}
+/* mentee body */
+
+/* mentor body */
+.mentor{
+    height: 200px;
+    padding-left: 230px;
+}
+/* mentor body */
+
+/* blog body */
+.row-comment-table{
+    padding: 10px 244px;
+}
+
+.article{
+    padding: 0px 260px;
+}
+
+.article a{
+    color: blue;
+}
+
+.blog-img{
+    width: 55%;
+    padding-top: 20px;
+}
+/* blog body*/
+
+/* author body */
+.author-img{
+    width: 55%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.author .bio li{
+    padding: 10px 0px;
+}
+
+.table-pribadi td{
+    padding: 6px 0px;
+}
+
+.tab{
+    padding-left:250px !important;
+}
+/* author body */
+
+/* home body */
+.row-one-home,
+.row-two-home{
+    padding: 0px 100px;
+}
+
+.row-11-home, .row-two-home, .row-three-home{
+    padding-top:50px;
+}
+
+.info{
+    padding-left: 60px;
+}
+
+.logo-table td{
+    padding: 30px;
+}
+
+.logo-table{
+    padding-bottom: 40px;
+    padding-left: 160px;
+}
+/* home body */
+
+/* form body */
+.center-col-form{
+    padding: 30px 320px;
+}
+/* form body */

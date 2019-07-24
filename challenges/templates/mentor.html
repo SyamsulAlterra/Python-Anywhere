@@ -1,0 +1,41 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<head>
+    <title>Mentor</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row one">
+            <div class="col-12">
+                <p class="aligncenter">Our Mentor</p>
+            </div>
+        </div>
+
+        {% for mentor in daftar_mentor %}
+        <div class="row two">
+            <div class="col-4">
+                    <img src="{{ mentor.prof_pic.url }}" alt="" class="mentor">
+                </div>
+                <div class="col-8">
+                    <p class="alignleft">{{ mentor.nama }}</p>
+                    <p class="alignleft" style='font-weight: bold'>{{ mentor.sebutan }} ({{mentor.pengalaman}} tahun)</p>
+                    <p class="alignleft">{{ mentor.quote }}</p>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-12 center-col">
+                <div class="aligncenter box">
+                    <a href="{% url 'input_mentor' %}">Daftar Jadi Mentor</a>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+</body>
+{% endblock %}

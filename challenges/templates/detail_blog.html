@@ -1,0 +1,41 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<head>
+    <title>Article {{ article.id }}</title>
+</head>
+
+<body class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 aligncenter">
+                        <img src="{{ article.headline_pic.url }}" alt="" class="blog-img">
+                    </div>
+                </div>
+                <div class="row row-comment-table">
+                    <div class="col-6">
+                        <p class="alignleft">{{ article.created_date }}</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="alignright">{{ article.comment }} comments</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 alignleft article">
+                        <h1>{{ article.title }}</h1>
+                        <p>
+                            {{ article.content }}
+                        </p>
+                        <!-- <a href="">Baca selengkapnya</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+
+{% endblock %}

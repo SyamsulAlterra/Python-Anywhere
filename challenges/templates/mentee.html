@@ -1,0 +1,38 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<head>
+    <title>Mentee</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row one">
+            <div class="col-12">
+                <p class="aligncenter">Our Mentee</p>
+            </div>
+        </div>
+
+        {% for mentee in daftar_mentee %}
+        <div class="row two">
+            <div class="col-4">
+                <img src="{{ mentee.prof_pic.url }}" alt="" class="mentee">
+            </div>
+            <div class="col-8">
+                <p class="alignleft">{{ mentee.nama }}</p>
+                <p class="alignleft">{{ mentee.kesan }}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-12 center-col">
+                <div class="aligncenter box">
+                    <a href="{% url 'input_mentee' %}">Daftar Jadi Mentee</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+{% endblock %}
